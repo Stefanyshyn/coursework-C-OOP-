@@ -1,0 +1,72 @@
+﻿  MainForm.cpp
+c:\users\lenovo\source\repos\real_estate_agency\real_estate_agency\creditcardform.h(17): warning C4677: card: сигнатура члена, не являющегося частным, содержит частный тип сборки "CreditCard"
+  c:\users\lenovo\source\repos\real_estate_agency\real_estate_agency\creditcard.h(5): note:  см. объявление "CreditCard"
+c:\users\lenovo\source\repos\real_estate_agency\real_estate_agency\creditcardform.h(268): warning C4244: аргумент: преобразование "__int64" в "int", возможна потеря данных
+c:\users\lenovo\source\repos\real_estate_agency\real_estate_agency\workwithestate.h(8): warning C4570: WorkWith<Estate>: не был объявлен явно как абстрактный, однако содержит абстрактные функции
+  c:\users\lenovo\source\repos\real_estate_agency\real_estate_agency\workwithestate.h(8): note: System::Collections::Generic::List<T ^> ^WorkWith<T>::read(System::String ^): абстрактный
+          with
+          [
+              T=Estate
+          ]
+  c:\users\lenovo\source\repos\real_estate_agency\real_estate_agency\workwith.h(12): note:  см. объявление "WorkWith<Estate>::read"
+  c:\users\lenovo\source\repos\real_estate_agency\real_estate_agency\workwithestate.h(9): note: выполняется компиляция ссылки на экземпляр шаблон класс "WorkWith<Estate>"
+c:\users\lenovo\source\repos\real_estate_agency\real_estate_agency\workwithrealestateform.h(22): warning C4677: estates: сигнатура члена, не являющегося частным, содержит частный тип сборки "Estate"
+  c:\users\lenovo\source\repos\real_estate_agency\real_estate_agency\estate.h(5): note:  см. объявление "Estate"
+c:\users\lenovo\source\repos\real_estate_agency\real_estate_agency\workwithrealestateform.h(31): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+c:\users\lenovo\source\repos\real_estate_agency\real_estate_agency\workwithrealestateform.h(875): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+c:\users\lenovo\source\repos\real_estate_agency\real_estate_agency\workwithrealestateform.h(936): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+c:\users\lenovo\source\repos\real_estate_agency\real_estate_agency\workwithrealestateform.h(941): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+c:\users\lenovo\source\repos\real_estate_agency\real_estate_agency\workwithrealestateform.h(942): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+c:\users\lenovo\source\repos\real_estate_agency\real_estate_agency\workwithrealestateform.h(943): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+c:\users\lenovo\source\repos\real_estate_agency\real_estate_agency\workwithrealestateform.h(944): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+c:\users\lenovo\source\repos\real_estate_agency\real_estate_agency\discountforclientform.h(3): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+c:\users\lenovo\source\repos\real_estate_agency\real_estate_agency\workwithclient.h(11): warning C4570: WorkWith<Client>: не был объявлен явно как абстрактный, однако содержит абстрактные функции
+  c:\users\lenovo\source\repos\real_estate_agency\real_estate_agency\workwithclient.h(11): note: System::Collections::Generic::List<T ^> ^WorkWith<T>::read(System::String ^): абстрактный
+          with
+          [
+              T=Client
+          ]
+  c:\users\lenovo\source\repos\real_estate_agency\real_estate_agency\workwith.h(12): note:  см. объявление "WorkWith<Client>::read"
+  c:\users\lenovo\source\repos\real_estate_agency\real_estate_agency\workwithclient.h(12): note: выполняется компиляция ссылки на экземпляр шаблон класс "WorkWith<Client>"
+c:\users\lenovo\source\repos\real_estate_agency\real_estate_agency\discountforclientform.h(21): warning C4677: clients: сигнатура члена, не являющегося частным, содержит частный тип сборки "Client"
+  c:\users\lenovo\source\repos\real_estate_agency\real_estate_agency\client.h(7): note:  см. объявление "Client"
+c:\users\lenovo\source\repos\real_estate_agency\real_estate_agency\discountforclientform.h(30): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+c:\users\lenovo\source\repos\real_estate_agency\real_estate_agency\discountforclientform.h(346): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+c:\users\lenovo\source\repos\real_estate_agency\real_estate_agency\discountforclientform.h(373): warning C4965: неявная упаковка целого числа 0; используйте nullptr или явное приведение типов
+c:\users\lenovo\source\repos\real_estate_agency\real_estate_agency\topayanorderform.h(24): warning C4677: client: сигнатура члена, не являющегося частным, содержит частный тип сборки "Client"
+  c:\users\lenovo\source\repos\real_estate_agency\real_estate_agency\client.h(7): note:  см. объявление "Client"
+c:\users\lenovo\source\repos\real_estate_agency\real_estate_agency\topayanorderform.h(25): warning C4677: estate: сигнатура члена, не являющегося частным, содержит частный тип сборки "Estate"
+  c:\users\lenovo\source\repos\real_estate_agency\real_estate_agency\estate.h(5): note:  см. объявление "Estate"
+c:\users\lenovo\source\repos\real_estate_agency\real_estate_agency\topayanorderform.h(27): warning C4677: setClient: сигнатура члена, не являющегося частным, содержит частный тип сборки "Client"
+  c:\users\lenovo\source\repos\real_estate_agency\real_estate_agency\client.h(7): note:  см. объявление "Client"
+c:\users\lenovo\source\repos\real_estate_agency\real_estate_agency\topayanorderform.h(31): warning C4677: setEstate: сигнатура члена, не являющегося частным, содержит частный тип сборки "Estate"
+  c:\users\lenovo\source\repos\real_estate_agency\real_estate_agency\estate.h(5): note:  см. объявление "Estate"
+c:\users\lenovo\source\repos\real_estate_agency\real_estate_agency\realtorworkwithesrateform.h(24): warning C4677: estates: сигнатура члена, не являющегося частным, содержит частный тип сборки "Estate"
+  c:\users\lenovo\source\repos\real_estate_agency\real_estate_agency\estate.h(5): note:  см. объявление "Estate"
+c:\users\lenovo\source\repos\real_estate_agency\real_estate_agency\realtorworkwithesrateform.h(31): warning C4677: clients: сигнатура члена, не являющегося частным, содержит частный тип сборки "Client"
+  c:\users\lenovo\source\repos\real_estate_agency\real_estate_agency\client.h(7): note:  см. объявление "Client"
+c:\users\lenovo\source\repos\real_estate_agency\real_estate_agency\realtorworkwithesrateform.h(39): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+c:\users\lenovo\source\repos\real_estate_agency\real_estate_agency\realtorworkwithesrateform.h(44): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+c:\users\lenovo\source\repos\real_estate_agency\real_estate_agency\realtorworkwithesrateform.h(919): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+c:\users\lenovo\source\repos\real_estate_agency\real_estate_agency\realtorworkwithesrateform.h(959): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+c:\users\lenovo\source\repos\real_estate_agency\real_estate_agency\realtorworkwithesrateform.h(964): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+c:\users\lenovo\source\repos\real_estate_agency\real_estate_agency\realtorworkwithesrateform.h(978): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+c:\users\lenovo\source\repos\real_estate_agency\real_estate_agency\realtorworkwithesrateform.h(996): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+c:\users\lenovo\source\repos\real_estate_agency\real_estate_agency\realtorworkwithesrateform.h(1028): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+c:\users\lenovo\source\repos\real_estate_agency\real_estate_agency\realtorworkwithesrateform.h(1029): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+c:\users\lenovo\source\repos\real_estate_agency\real_estate_agency\realtorworkwithesrateform.h(1030): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+c:\users\lenovo\source\repos\real_estate_agency\real_estate_agency\realtorworkwithesrateform.h(1031): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+c:\users\lenovo\source\repos\real_estate_agency\real_estate_agency\realtorworkwithesrateform.h(1033): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+c:\users\lenovo\source\repos\real_estate_agency\real_estate_agency\realtorworkwithesrateform.h(1034): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+c:\users\lenovo\source\repos\real_estate_agency\real_estate_agency\accountantform.h(127): warning C4305: аргумент: усечение из "double" в "float"
+c:\users\lenovo\source\repos\real_estate_agency\real_estate_agency\accountantform.h(129): warning C4305: аргумент: усечение из "double" в "float"
+c:\users\lenovo\source\repos\real_estate_agency\real_estate_agency\accountantform.h(148): warning C4305: аргумент: усечение из "double" в "float"
+c:\users\lenovo\source\repos\real_estate_agency\real_estate_agency\accountantform.h(149): warning C4305: аргумент: усечение из "double" в "float"
+c:\users\lenovo\source\repos\real_estate_agency\real_estate_agency\sellingestateform.h(41): warning C4677: estates: сигнатура члена, не являющегося частным, содержит частный тип сборки "Estate"
+  c:\users\lenovo\source\repos\real_estate_agency\real_estate_agency\estate.h(5): note:  см. объявление "Estate"
+c:\users\lenovo\source\repos\real_estate_agency\real_estate_agency\sellingestateform.h(27): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+c:\users\lenovo\source\repos\real_estate_agency\real_estate_agency\sellingestateform.h(524): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+c:\users\lenovo\source\repos\real_estate_agency\real_estate_agency\sellingestateform.h(527): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+c:\users\lenovo\source\repos\real_estate_agency\real_estate_agency\mainform.cpp(10): warning C4829: Возможно, неправильные параметры функции main. Рекомендуемый вариант - "int main(Platform::Array<Platform::String^>^ argv)"
+  AccountantForm.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+LINK : fatal error LNK1561: Єюўър тїюфр фюыцэр с√Є№ юяЁхфхыхэр

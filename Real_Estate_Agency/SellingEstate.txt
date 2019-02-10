@@ -1,0 +1,14 @@
+House#2#32#15000
+Apartment#4#78#25000
+Apartment#4#78#25000
+Other#2#43#12000
+Other#4#50#19231
+House#3#54#23311
+Apartment#1#29#20000
+House#4#120,3#40000
+House#6#120,3#46149,69
+House#6#120,3#46149,69
+House#6#127#46149,69
+Apartment#7#150#48500
+Apartment#1#40#18741,37
+Apartment#4#78#24250

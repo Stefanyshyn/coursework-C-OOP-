@@ -1,0 +1,2 @@
+#pragma once
+enum{ REALTOR, ACCOUNTANT, ADMINISTRATOR};

@@ -1,0 +1,85 @@
+  RealEstateAgency.AccountantForm.resources - Embedded, ContainedInManifestFile, 
+  RealEstateAgency.AuthorizationForm.resources - Embedded, ContainedInManifestFile, 
+  RealEstateAgency.CreditCardForm.resources - Embedded, ContainedInManifestFile, 
+  RealEstateAgency.DiscountForClientForm.resources - Embedded, ContainedInManifestFile, 
+  RealEstateAgency.MainForm.resources - Embedded, ContainedInManifestFile, 
+  RealEstateAgency.RealtorWorkWithEsrateForm.resources - Embedded, ContainedInManifestFile, 
+  RealEstateAgency.ReportForm.resources - Embedded, ContainedInManifestFile, 
+  RealEstateAgency.SellingEstateForm.resources - Embedded, ContainedInManifestFile, 
+  RealEstateAgency.SignUpPersonnelForm.resources - Embedded, ContainedInManifestFile, 
+  RealEstateAgency.ToPayAnOrderForm.resources - Embedded, ContainedInManifestFile, 
+  RealEstateAgency.WorkWithRealEstateForm.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly Real_Estate_Agency, Version=0.0.*, Culture=Инвариантный язык (Инвариантная страна): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class RealEstateAgency.ReportForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Double TPrice : Public
+    Double TArea : Public
+    Int32 year : Public, Static
+Class RealEstateAgency.AccountantForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class RealEstateAgency.CreditCardForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    CreditCard card : Public
+Class RealEstateAgency.DiscountForClientForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Collections.Generic.List`1[Client] clients : Public
+Class RealEstateAgency.ToPayAnOrderForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Boolean isPay : Public
+    Client client : Public
+    Estate estate : Public
+  Methods:
+    setClient(Client): PrivateScope, Public, HideBySig
+    setEstate(Estate): PrivateScope, Public, HideBySig
+Class RealEstateAgency.RealtorWorkWithEsrateForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Collections.Generic.List`1[Estate] estates : Public
+    System.Collections.Generic.List`1[Client] clients : Public
+Class RealEstateAgency.SignUpForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class RealEstateAgency.AuthorizationForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    getPersonNumber(): PrivateScope, Public, HideBySig
+Class RealEstateAgency.WorkWithRealEstateForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Collections.Generic.List`1[Estate] estates : Public
+Class RealEstateAgency.SellingEstateForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Collections.Generic.List`1[Estate] estates : Public
+Class RealEstateAgency.MainForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    authorization(): PrivateScope, Public, HideBySig
